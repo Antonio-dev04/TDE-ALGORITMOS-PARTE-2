@@ -1,0 +1,256 @@
+{
+  "metadados": {
+    "linguagem": "Python 3.14.7",
+    "sistema_operacional": "darwin",
+    "repeticoes": 5,
+    "semente": 42
+  },
+  "experimentos": [
+    {
+      "operacao": "Inserção",
+      "cenario": "aleatorio",
+      "n": 100,
+      "tempo_base_ms": 0.1102,
+      "desvio_base_ms": 0.0591,
+      "tempo_otim_ms": 0.2242,
+      "desvio_otim_ms": 0.0776,
+      "ganho_x": 0.49,
+      "variacao_pct": -103.48
+    },
+    {
+      "operacao": "Inserção",
+      "cenario": "ordenado",
+      "n": 100,
+      "tempo_base_ms": 0.0851,
+      "desvio_base_ms": 0.0152,
+      "tempo_otim_ms": 0.1825,
+      "desvio_otim_ms": 0.0657,
+      "ganho_x": 0.47,
+      "variacao_pct": -114.35
+    },
+    {
+      "operacao": "Inserção",
+      "cenario": "invertido",
+      "n": 100,
+      "tempo_base_ms": 0.0078,
+      "desvio_base_ms": 0.0005,
+      "tempo_otim_ms": 0.137,
+      "desvio_otim_ms": 0.0028,
+      "ganho_x": 0.06,
+      "variacao_pct": -1644.92
+    },
+    {
+      "operacao": "Busca (existente)",
+      "cenario": "aleatorio",
+      "n": 100,
+      "tempo_base_ms": 0.027,
+      "tempo_otim_ms": 0.0156,
+      "comps_base": 580,
+      "comps_otim": 584,
+      "ganho_x": 1.73,
+      "variacao_pct": 42.25
+    },
+    {
+      "operacao": "Busca (inexistente)",
+      "cenario": "aleatorio",
+      "n": 100,
+      "tempo_base_ms": 0.0448,
+      "tempo_otim_ms": 0.0171,
+      "comps_base": 700,
+      "comps_otim": 700,
+      "ganho_x": 2.62,
+      "variacao_pct": 61.9
+    },
+    {
+      "operacao": "Remoção",
+      "cenario": "aleatorio",
+      "n": 100,
+      "tempo_base_ms": 0.03,
+      "tempo_otim_ms": 0.0852,
+      "ganho_x": 0.35,
+      "variacao_pct": -184.08
+    },
+    {
+      "operacao": "Ordenação Relatório",
+      "cenario": "aleatorio",
+      "n": 100,
+      "tempo_base_ms": 0.0503,
+      "tempo_otim_ms": 0.0443,
+      "ganho_x": 1.13,
+      "variacao_pct": 11.83
+    },
+    {
+      "operacao": "Fila Prioridade (Heap)",
+      "cenario": "misto",
+      "n": 100,
+      "tempo_base_ms": 0.0532,
+      "tempo_otim_ms": 0.0799,
+      "ganho_x": 0.67,
+      "variacao_pct": -50.02
+    },
+    {
+      "operacao": "Inserção",
+      "cenario": "aleatorio",
+      "n": 1000,
+      "tempo_base_ms": 4.6085,
+      "desvio_base_ms": 0.6586,
+      "tempo_otim_ms": 2.1544,
+      "desvio_otim_ms": 0.0966,
+      "ganho_x": 2.14,
+      "variacao_pct": 53.25
+    },
+    {
+      "operacao": "Inserção",
+      "cenario": "ordenado",
+      "n": 1000,
+      "tempo_base_ms": 9.2302,
+      "desvio_base_ms": 0.7105,
+      "tempo_otim_ms": 2.4505,
+      "desvio_otim_ms": 0.4766,
+      "ganho_x": 3.77,
+      "variacao_pct": 73.45
+    },
+    {
+      "operacao": "Inserção",
+      "cenario": "invertido",
+      "n": 1000,
+      "tempo_base_ms": 0.2015,
+      "desvio_base_ms": 0.0152,
+      "tempo_otim_ms": 2.0942,
+      "desvio_otim_ms": 0.2173,
+      "ganho_x": 0.1,
+      "variacao_pct": -939.41
+    },
+    {
+      "operacao": "Busca (existente)",
+      "cenario": "aleatorio",
+      "n": 1000,
+      "tempo_base_ms": 0.0441,
+      "tempo_otim_ms": 0.0212,
+      "comps_base": 902,
+      "comps_otim": 907,
+      "ganho_x": 2.08,
+      "variacao_pct": 52.0
+    },
+    {
+      "operacao": "Busca (inexistente)",
+      "cenario": "aleatorio",
+      "n": 1000,
+      "tempo_base_ms": 0.042,
+      "tempo_otim_ms": 0.0182,
+      "comps_base": 1000,
+      "comps_otim": 1000,
+      "ganho_x": 2.3,
+      "variacao_pct": 56.57
+    },
+    {
+      "operacao": "Remoção",
+      "cenario": "aleatorio",
+      "n": 1000,
+      "tempo_base_ms": 0.0286,
+      "tempo_otim_ms": 0.1178,
+      "ganho_x": 0.24,
+      "variacao_pct": -311.53
+    },
+    {
+      "operacao": "Ordenação Relatório",
+      "cenario": "aleatorio",
+      "n": 1000,
+      "tempo_base_ms": 5.9172,
+      "tempo_otim_ms": 0.718,
+      "ganho_x": 8.24,
+      "variacao_pct": 87.87
+    },
+    {
+      "operacao": "Fila Prioridade (Heap)",
+      "cenario": "misto",
+      "n": 1000,
+      "tempo_base_ms": 5.0582,
+      "tempo_otim_ms": 1.2593,
+      "ganho_x": 4.02,
+      "variacao_pct": 75.1
+    },
+    {
+      "operacao": "Inserção",
+      "cenario": "aleatorio",
+      "n": 10000,
+      "tempo_base_ms": 544.5296,
+      "desvio_base_ms": 5.8066,
+      "tempo_otim_ms": 31.3652,
+      "desvio_otim_ms": 0.5242,
+      "ganho_x": 17.36,
+      "variacao_pct": 94.24
+    },
+    {
+      "operacao": "Inserção",
+      "cenario": "ordenado",
+      "n": 10000,
+      "tempo_base_ms": 1015.2775,
+      "desvio_base_ms": 10.409,
+      "tempo_otim_ms": 30.2,
+      "desvio_otim_ms": 1.0807,
+      "ganho_x": 33.62,
+      "variacao_pct": 97.03
+    },
+    {
+      "operacao": "Inserção",
+      "cenario": "invertido",
+      "n": 10000,
+      "tempo_base_ms": 13.6019,
+      "desvio_base_ms": 0.2924,
+      "tempo_otim_ms": 30.3687,
+      "desvio_otim_ms": 1.688,
+      "ganho_x": 0.45,
+      "variacao_pct": -123.27
+    },
+    {
+      "operacao": "Busca (existente)",
+      "cenario": "aleatorio",
+      "n": 10000,
+      "tempo_base_ms": 0.0667,
+      "tempo_otim_ms": 0.0298,
+      "comps_base": 1242,
+      "comps_otim": 1236,
+      "ganho_x": 2.24,
+      "variacao_pct": 55.32
+    },
+    {
+      "operacao": "Busca (inexistente)",
+      "cenario": "aleatorio",
+      "n": 10000,
+      "tempo_base_ms": 0.0566,
+      "tempo_otim_ms": 0.0249,
+      "comps_base": 1400,
+      "comps_otim": 1400,
+      "ganho_x": 2.27,
+      "variacao_pct": 55.94
+    },
+    {
+      "operacao": "Remoção",
+      "cenario": "aleatorio",
+      "n": 10000,
+      "tempo_base_ms": 0.0576,
+      "tempo_otim_ms": 0.1538,
+      "ganho_x": 0.37,
+      "variacao_pct": -167.14
+    },
+    {
+      "operacao": "Ordenação Relatório",
+      "cenario": "aleatorio",
+      "n": 10000,
+      "tempo_base_ms": 732.6181,
+      "tempo_otim_ms": 7.5255,
+      "ganho_x": 97.35,
+      "variacao_pct": 98.97
+    },
+    {
+      "operacao": "Fila Prioridade (Heap)",
+      "cenario": "misto",
+      "n": 10000,
+      "tempo_base_ms": 594.8076,
+      "tempo_otim_ms": 18.9844,
+      "ganho_x": 31.33,
+      "variacao_pct": 96.81
+    }
+  ]
+}
